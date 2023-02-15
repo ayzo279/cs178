@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+// Distinct Concept 1: Schema
 const todoTaskSchema = new mongoose.Schema({
     content: {
         type: String,
